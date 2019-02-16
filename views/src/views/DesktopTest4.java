@@ -15,9 +15,9 @@ import java.util.Random;
 public class DesktopTest4 {
 
 
-	public ArrayList<String> strList = new ArrayList<String>();//¶¨ÒåÒ»¸öStringÀàĞÍµÄ·ºĞÍ¼¯ºÏ
-	public int count = 0;	//¶¨ÒåÒ»¸ö±äÁ¿  ÓÃÀ´¼ÇÂ¼ÄãÒ»¹²ÓĞ¶àÉÙÌõ²©ÎÄÍøÖ·
-	public int num =0;		//¶¨ÒåÒ»¸ö±äÁ¿ ÓÃÀ´¼ÇÂ¼ÄãÏÖÔÚÍê³ÉÁËµÚ¼¸±é±ãÀû
+	public ArrayList<String> strList = new ArrayList<String>();//å®šä¹‰ä¸€ä¸ªStringç±»å‹çš„æ³›å‹é›†åˆ
+	public int count = 0;	//å®šä¹‰ä¸€ä¸ªå˜é‡  ç”¨æ¥è®°å½•ä½ ä¸€å…±æœ‰å¤šå°‘æ¡åšæ–‡ç½‘å€
+	public int num =0;		//å®šä¹‰ä¸€ä¸ªå˜é‡ ç”¨æ¥è®°å½•ä½ ç°åœ¨å®Œæˆäº†ç¬¬å‡ éä¾¿åˆ©
 	public int i=0;
 	public Random random = new Random();
 	private Gui gui;
@@ -27,8 +27,8 @@ public class DesktopTest4 {
 	}
 
 	/*
-	 * µ÷ÓÃ´Ë·½·¨Í¨¹ıÕıÔò±í´ïÊ½½øĞĞÆ¥Åä
-	 * Æ¥ÅäÓĞĞ§µÄ²©ÎÄÍøÖ·
+	 * è°ƒç”¨æ­¤æ–¹æ³•é€šè¿‡æ­£åˆ™è¡¨è¾¾å¼è¿›è¡ŒåŒ¹é…
+	 * åŒ¹é…æœ‰æ•ˆçš„åšæ–‡ç½‘å€
 	 */
 	public void match(){
 		
@@ -57,7 +57,7 @@ public class DesktopTest4 {
 	}
 	
 	/*
-	 * Í¨¹ı´Ë·½·¨´ï³É´ò¿ªÏàÓ¦ÍøÖ·µÄĞ§¹û
+	 * é€šè¿‡æ­¤æ–¹æ³•è¾¾æˆæ‰“å¼€ç›¸åº”ç½‘å€çš„æ•ˆæœ
 	 */
 	public  void browse(String uri){
 		
@@ -77,12 +77,12 @@ public class DesktopTest4 {
 	
 	
 	/*
-	 * ´Ë·½·¨Îª½øĞĞÎŞÏŞÑ­»·
-	 * ²¢¶¨Ê±ĞİÃßÏß³Ì
+	 * æ­¤æ–¹æ³•ä¸ºè¿›è¡Œæ— é™å¾ªç¯
+	 * å¹¶å®šæ—¶ä¼‘çœ çº¿ç¨‹
 	 */
 	public  void begin(int j1,Boolean b) {
 		match();
-		//Èç¹ûÎªÕæÔò²ÉÓÃËæ»ú·ÃÎÊ£¬·ñÔòÈ«²¿±éÀú
+		//å¦‚æœä¸ºçœŸåˆ™é‡‡ç”¨éšæœºè®¿é—®ï¼Œå¦åˆ™å…¨éƒ¨éå†
 		if(b) {
 			random(j1);
 			
@@ -94,7 +94,7 @@ public class DesktopTest4 {
 	}
 	
 	/*
-	 * ´Ë·½·¨ÎªÈ«²¿±éÀú·½·¨
+	 * æ­¤æ–¹æ³•ä¸ºå…¨éƒ¨éå†æ–¹æ³•
 	 */
 	public void all(int j2) {
 		while(true){
@@ -105,16 +105,16 @@ public class DesktopTest4 {
 					//int hhh = random.nextInt(3);	
 					for(int k=0; k<j2;k++)
 					  browse((String)strList.get(k));
-					Thread.sleep(40000);//ÕâÀïµÄµ¥Î»ÊÇºÁÃë  ´ò¿ªÃ¿¸ö²©ÎÄÍøÖ·¼ä¸ô¶àÉÙms
-					System.out.println("Íê³ÉµÚ"+i+"¸öforÑ­»·");
+					Thread.sleep(40000);//è¿™é‡Œçš„å•ä½æ˜¯æ¯«ç§’  æ‰“å¼€æ¯ä¸ªåšæ–‡ç½‘å€é—´éš”å¤šå°‘ms
+					System.out.println("å®Œæˆç¬¬"+i+"ä¸ªforå¾ªç¯");
 					
 				}else{
 					i=-1;
 					num++;
-					System.out.println("Íê³ÉµÚ"+num+"ÂÖ·ÃÎÊ");
+					System.out.println("å®Œæˆç¬¬"+num+"è½®è®¿é—®");
 					
 					// Runtime.getRuntime().exec("taskkill /F /IM firefox.exe");
-					Thread.sleep(60000);//ÕâÀïµÄµ¥Î»ÊÇºÁÃë  Íê³ÉÃ¿´Î×ÜµÄ²©ÎÄ±éÀú¼ä¸ô¶àÉÙms
+					Thread.sleep(60000);//è¿™é‡Œçš„å•ä½æ˜¯æ¯«ç§’  å®Œæˆæ¯æ¬¡æ€»çš„åšæ–‡éå†é—´éš”å¤šå°‘ms
 				}				
 			}catch(Exception e){
 				e.printStackTrace();
@@ -135,15 +135,15 @@ public class DesktopTest4 {
 						int hhh = random.nextInt(j2);
 						browse((String)strList.get(hhh));
 					}
-					Thread.sleep(40000);//ÕâÀïµÄµ¥Î»ÊÇºÁÃë  ´ò¿ªÃ¿¸ö²©ÎÄÍøÖ·¼ä¸ô¶àÉÙms
-					System.out.println("Íê³ÉµÚ"+i+"¸öforÑ­»·");
+					Thread.sleep(40000);//è¿™é‡Œçš„å•ä½æ˜¯æ¯«ç§’  æ‰“å¼€æ¯ä¸ªåšæ–‡ç½‘å€é—´éš”å¤šå°‘ms
+					System.out.println("å®Œæˆç¬¬"+i+"ä¸ªforå¾ªç¯");
 					
 				}else{
 					i=-1;
 					num++;
-					System.out.println("Íê³ÉµÚ"+num+"ÂÖ·ÃÎÊ");
+					System.out.println("å®Œæˆç¬¬"+num+"è½®è®¿é—®");
 					// Runtime.getRuntime().exec("taskkill /F /IM firefox.exe");
-					Thread.sleep(60000);//ÕâÀïµÄµ¥Î»ÊÇºÁÃë  Íê³ÉÃ¿´Î×ÜµÄ²©ÎÄ±éÀú¼ä¸ô¶àÉÙms
+					Thread.sleep(60000);//è¿™é‡Œçš„å•ä½æ˜¯æ¯«ç§’  å®Œæˆæ¯æ¬¡æ€»çš„åšæ–‡éå†é—´éš”å¤šå°‘ms
 				}				
 			}catch(Exception e){
 				e.printStackTrace();
@@ -151,6 +151,7 @@ public class DesktopTest4 {
 			i++;
 		}
 	}
+	
 	
 	
 
