@@ -12,10 +12,10 @@
     <meta name="referrer" content="always">
     <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
     <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
-        <meta name="csdn-baidu-search"  content='{"autorun":true,"install":true,"keyword":"��qq_41998273�Ĳ��͡�"}'>
+        <meta name="csdn-baidu-search"  content='{"autorun":true,"install":true,"keyword":"【qq_41998273的博客】"}'>
     
     <link href="https://csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
-    <title>��qq_41998273�Ĳ��͡� - CSDN����</title>
+    <title>【qq_41998273的博客】 - CSDN博客</title>
 
         
                     <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/list-b85bd04713.min.css">
@@ -31,13 +31,13 @@
         var isOwner = false;
         var loginUrl = "http://passport.csdn.net/account/login?from=https://blog.csdn.net/qq_41998273"
         var blogUrl = "https://blog.csdn.net/";
-        //ҳ��Ƥ����ʽ
+        //页面皮肤样式
         var curSkin = "skin3-template";
-        // ���ķ�ʽ��������
-        var articleTitles = "��qq_41998273�Ĳ��͡�";
+        // 第四范式所需数据
+        var articleTitles = "【qq_41998273的博客】";
         var articleID = "";
         
-        var nickName = "���һ��";
+        var nickName = "秀得一脸";
         var isCorporate = false;
         var subDomainBlogUrl = "https://blog.csdn.net/"
     </script>
@@ -55,9 +55,9 @@
     <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
     <script src="https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js"></script>
     <script src="//g.csdnimg.cn/fixed-sidebar/1.1.3/fixed-sidebar.js" type="text/javascript"></script>
-    <!-- �°��ϱ� -->
+    <!-- 新版上报 -->
     <script src="//g.csdnimg.cn/track/1.2.4/track.js" type="text/javascript"></script>
-    <!-- �°��ϱ�end -->
+    <!-- 新版上报end -->
         <link rel="stylesheet" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
     <style>
         .MathJax, .MathJax_Message, .MathJax_Preview{
@@ -65,7 +65,7 @@
         }
     </style>
 </head>
-<!-- nodata �������ӿ�������ʱ��ʽ���� -->
+<!-- nodata 第三栏接口无数据时样式不变 -->
 <body class="nodata " > 
     <link rel="stylesheet" href="https://csdnimg.cn/public/common/toolbar/content_toolbar_css/content_toolbar.css">
     <script id="toolbar-tpl-scriptId" src="https://csdnimg.cn/public/common/toolbar/js/content_toolbar.js" type="text/javascript" domain="https://blog.csdn.net/"></script>
@@ -74,7 +74,7 @@
 	<div class="container d-flex clearfix" style="background-image: ">
 		<div class="title-box">
 			<h1 class="title-blog">
-				<a href="https://blog.csdn.net/qq_41998273">qq_41998273�Ĳ���</a>
+				<a href="https://blog.csdn.net/qq_41998273">qq_41998273的博客</a>
 			</h1>
 			<p class="description "></p>
 		</div>
@@ -88,16 +88,16 @@
       <div class="filter-box d-flex align-items-center">
       <form action="" id=seeOriginal>
     <label class="chk-box" for="chkOriginal">
-      <input onchange="this.checked ? document.getElementById('seeOriginal').submit() : location.href = 'https://blog.csdn.net/qq_41998273'" type="checkbox" name="t" value="1"  id="chkOriginal">ֻ��ԭ��</label></form>
+      <input onchange="this.checked ? document.getElementById('seeOriginal').submit() : location.href = 'https://blog.csdn.net/qq_41998273'" type="checkbox" name="t" value="1"  id="chkOriginal">只看原创</label></form>
     <dl class="filter-sort-box d-flex align-items-center">
-    <dt>����</dt>
-    <dd><a href="javascript:void(0);" class="btn-filter-sort active" target="_self">Ĭ��</a></dd>
-    <dd><a href="https://blog.csdn.net/qq_41998273?orderby=UpdateTime" class="btn-filter-sort " target="_self">������ʱ��</a></dd>
-    <dd><a href="https://blog.csdn.net/qq_41998273?orderby=ViewCount" class="btn-filter-sort " target="_self">��������</a></dd>
+    <dt>排序：</dt>
+    <dd><a href="javascript:void(0);" class="btn-filter-sort active" target="_self">默认</a></dd>
+    <dd><a href="https://blog.csdn.net/qq_41998273?orderby=UpdateTime" class="btn-filter-sort " target="_self">按更新时间</a></dd>
+    <dd><a href="https://blog.csdn.net/qq_41998273?orderby=ViewCount" class="btn-filter-sort " target="_self">按访问量</a></dd>
     <dd><a class="btn btn-sm rss" href="https://blog.csdn.net/qq_41998273/rss/list">
 		<svg class="icon" aria-hidden="true">
 			<use xlink:href="#csdnc-rss"></use>
-		</svg>RSS����</a>
+		</svg>RSS订阅</a>
     </dd>
   </dl>
 </div>
@@ -109,24 +109,25 @@
     <div class="article-item-box csdn-tracking-statistics" style="display: none;" data-articleid="82762601">
         <h4 class="">
             <a href="https://blog.csdn.net/yoyo_liyy/article/details/82762601" target="_blank">
-            <span class="article-type type-1">ԭ</span>�۶����ݶ�</a>
+            <span class="article-type type-1">原</span>帝都的凛冬</a>
         </h4>
         <p class="content">
             <a href="https://blog.csdn.net/yoyo_liyy/article/details/82762601" target="_blank">
-                ����AI���˹����ܡ���������������ˬ�ķ磬��Ȼerzhi���������ķ�ͷ�õ����ݵ��½���
+                各种AI、人工智能、大数据如秋日凉爽的风，杳然erzhi；区块链的风头得到短暂的下降。
 
-                �˴�ɽ��̨������˶����������ƻ�������������ͲƲ������ش���ʧ
+                此次山竹台风造成了多少伤亡和破坏？人民的生命和财产遭受重大损失
             </a>
         </p>
+	
         <div class="info-box d-flex align-content-center">
             <p>
                 <span class="date">2019-02-13 17:33:44</span>
             </p>
             <p>
-                <span class="read-num">�Ķ�����13</span>
+                <span class="read-num">阅读数：13</span>
             </p>
             <p>
-                <span class="read-num">��������2</span>
+                <span class="read-num">评论数：2</span>
             </p>
         </div>
     </div>
@@ -137,12 +138,12 @@
 	    <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/87186197" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        Eclipse֮WindowBuilder�İ�װ��ʹ�ã����£�      </a>
+            原        </span>
+        Eclipse之WindowBuilder的安装和使用（最新）      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/87186197" target="_blank">
-        ��ʱ�������ڽ��п��������У���ҪдΪ�����дͼ�ν��棬��ѧ��java��ͬѧ��֪����java��ͼ�ν���д�����ǽ�һ���鷳���ϻ����ڼ������ʦ����ͼ�ν����ǽ�һ�����ģ���򵥵��Ĳ���Ҫдһ�Ѵ��룩��������c#������visual studio�¸�������ֱ�ӽ���Ҫ�Ŀؼ���ק��������γ�����Ҫ�Ľ��棬������...      </a>
+        有时候我们在进行开发过程中，需要写为程序编写图形界面，但学过java的同学都知道，java的图形界面写起来那叫一个麻烦（上机课期间跟着老师手敲图形界面那叫一个扎心，简简单单的布局要写一堆代码），它不像c#可以在visual studio下根据需求直接将需要的控件拖拽到面板上形成所需要的界面，但是现...      </a>
     </p>
     <div class="info-box d-flex align-content-center">
       <p>
@@ -150,11 +151,11 @@
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">5</span> </span>
+        <span class="read-num">阅读数 <span class="num">5</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -165,12 +166,12 @@
 	    <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/86902562" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        ������ӷ��������Ķ���      </a>
+            原        </span>
+        如何增加访问量、阅读量      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/86902562" target="_blank">
-        �沩����һ��ʱ���ˣ���ʱ�򿴼��Լ����ٵÿ����Ĳ��ͷ������Ͳ����Ķ�����������ô����������Լ��Ĳ��ͷ����������Ķ����أ�����������web����ľ������֣���������Ķ������ǵ���򿪶�Ӧ���ĵ���ַ����˳�����¼ˢ�½��м�1����������¼�����ݿ��У������ͷ������ܴ�һ���������в����Ķ���֮�͡������˼���...      </a>
+        玩博客有一段时间了，有时候看见自己那少得可怜的博客访问量和博文阅读数，心想怎么样才能提高自己的博客访问量博文阅读数呢，结合自身搞过web方面的经历发现：这个博文阅读量就是当你打开对应博文的网址，后端程序会记录刷新进行加1操作，并记录到数据库中，而博客访问量很大一部分是所有博文阅读量之和。（个人见解...      </a>
     </p>
     <div class="info-box d-flex align-content-center">
       <p>
@@ -178,11 +179,11 @@
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">308</span> </span>
+        <span class="read-num">阅读数 <span class="num">308</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -193,14 +194,14 @@
 	    <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/86910359" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        ������ӷ��������Ķ�����2.0�棩      </a>
+            原        </span>
+        如何增加访问量、阅读量（2.0版）      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/86910359" target="_blank">
-        ����һƪ������˵��֮ǰ�����������Ǹо�����̫�鷳����Ҫһ�����İѲ������µ���ַ����ȥ��Ȼ��ͨ���������������ַ�����������ʹ�õ��ԵĻ�����ʱ�����ʱ��ʱ�Զ���Ȼ��ʱ��رգ������Ǻܲ����㣬���Ծ�����һ���Ľ��漴�ڶ����汾���������汾�Ļ��������ͼ�ν��������������о������ۡ�
+        在上一篇文章中说了之前的做法，但是感觉这样太麻烦，还要一个个的把博客文章的网址打上去，然后通过浏览器这样打开网址，如果你正在使用电脑的话，此时浏览器时不时自动打开然后到时间关闭，无疑是很不方便，所以就做了一个改进版即第二个版本，第三个版本的话打算加上图形界面这样看起来感觉更美观。
 
-��һƪ��htt...      </a>
+第一篇：htt...      </a>
     </p>
     <div class="info-box d-flex align-content-center">
       <p>
@@ -208,11 +209,11 @@
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">408</span> </span>
+        <span class="read-num">阅读数 <span class="num">408</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -223,16 +224,16 @@
 	    <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/86771608" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        Java�������鼰�����������      </a>
+            原        </span>
+        Java开发经验及技巧问题汇总      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/86771608" target="_blank">
-        1. ʲô�� JRE/J2RE��
+        1. 什么是 JRE/J2RE？
 
-��J2RE �� Java2RuntimeEnvironment���� Java ���л�������ʱ��� JRE�������ֻ��
-Ҫ���� Java ����� Applet�����ز���װ�����ɡ������Ҫ���п��� Java ������������ JDK��
-�� JDK �и����� JRE��ע...      </a>
+答：J2RE 是 Java2RuntimeEnvironment，即 Java 运行环境，有时简称 JRE。如果你只需
+要运行 Java 程序或 Applet，下载并安装它即可。如果你要自行开发 Java 软件，请下载 JDK。
+在 JDK 中附带有 JRE。注...      </a>
     </p>
     <div class="info-box d-flex align-content-center">
       <p>
@@ -240,11 +241,11 @@
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">484</span> </span>
+        <span class="read-num">阅读数 <span class="num">484</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -252,25 +253,25 @@
         <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/86765914" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        Eclipse��ݼ�-----Java Դ����༭���ݼ�      </a>
+            原        </span>
+        Eclipse快捷键-----Java 源代码编辑类快捷键      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/86765914" target="_blank">
-        C Java Դ����༭���ݼ�
+        C Java 源代码编辑类快捷键
 
-1. ��Ctrl+O�������ٴ��
-
-
-
-2. ��Ctrl+T�������ٲ�νṹ
+1. 【Ctrl+O】：快速大纲
 
 
 
-3. ��Ctrl+F3�����򿪽ṹ
-4. ��Ctrl+Shift+���ϼ�����ת����һ����Ա
-5. ��Ctrl+Shift+���¼�����ת����һ����Ա
-6. ��Ctrl+Shift+...      </a>
+2. 【Ctrl+T】：快速层次结构
+
+
+
+3. 【Ctrl+F3】：打开结构
+4. 【Ctrl+Shift+向上键】：转到上一个成员
+5. 【Ctrl+Shift+向下键】：转到下一个成员
+6. 【Ctrl+Shift+...      </a>
     </p>
     <div class="info-box d-flex align-content-center">
       <p>
@@ -278,11 +279,11 @@
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">275</span> </span>
+        <span class="read-num">阅读数 <span class="num">275</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -290,18 +291,18 @@
         <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/86765899" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        Eclipse��ݼ�----�ı��༭���ݼ�      </a>
+            原        </span>
+        Eclipse快捷键----文本编辑类快捷键      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/86765899" target="_blank">
-        B �ı��༭���ݼ�
-1. ��Ctrl+���ͷ������һ������
-2. ��Ctrl+�ϼ�ͷ�������Ϲ���һ��
-3. ��Ctrl+�Ҽ�ͷ������һ������
-4. ��Ctrl+�¼�ͷ�������¹���һ��
-5. ��Ctrl+Backspace����ɾ����һ������
-6. ��Ctrl+Delete����ɾ����һ������
+        B 文本编辑类快捷键
+1. 【Ctrl+左箭头】：上一个词语
+2. 【Ctrl+上箭头】：向上滚动一行
+3. 【Ctrl+右箭头】：下一个词语
+4. 【Ctrl+下箭头】：向下滚动一行
+5. 【Ctrl+Backspace】：删除上一个词语
+6. 【Ctrl+Delete】：删除下一个词语
 7. ...      </a>
     </p>
     <div class="info-box d-flex align-content-center">
@@ -310,11 +311,11 @@
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">200</span> </span>
+        <span class="read-num">阅读数 <span class="num">200</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -322,12 +323,12 @@
         <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/86765723" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        Eclipse ��ݼ�-------�������ݼ�      </a>
+            原        </span>
+        Eclipse 快捷键-------窗口类快捷键      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/86765723" target="_blank">
-        ????????????????????????????????????????????? Eclipse ��ݼ�֮������
+        ????????????????????????????????????????????? Eclipse 快捷键之窗口类
 
 
 
@@ -377,11 +378,11 @@
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">208</span> </span>
+        <span class="read-num">阅读数 <span class="num">208</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -389,17 +390,17 @@
         <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/86762440" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        Eclipse ��ʾ�뼼��      </a>
+            原        </span>
+        Eclipse 提示与技巧      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/86762440" target="_blank">
         
 
-Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
-����̨�༭��������������ʷ��¼������������ڱ༭ʱ�ִ�����һ���༭���������ѡ
-������������ˡ��˵������Alt+���ͷ���������ǹ���̨�������ϵ� �����ͷ������
-������һ���༭������ʹ�ø�����ͬʱʹ�ü����Ѵ򿪵ı༭����2. ��Ctrl+E...      </a>
+Eclipse 提示与技巧1. 我的当前位置
+工作台编辑器将保留导航历史记录。如果当您正在编辑时又打开了另一个编辑器，则可以选
+择【浏览】【后退】菜单命令（【Alt+左箭头】，或者是工作台工具栏上的 向左箭头）来返
+回至上一个编辑器。这使得更容易同时使用几个已打开的编辑器。2. 【Ctrl+E...      </a>
     </p>
     <div class="info-box d-flex align-content-center">
       <p>
@@ -407,11 +408,11 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">145</span> </span>
+        <span class="read-num">阅读数 <span class="num">145</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -419,14 +420,14 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
         <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/86758106" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        Windows��mac�±Ƚ����������ļ��Ĳ�ͬ      </a>
+            原        </span>
+        Windows或mac下比较两个大型文件的不同      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/86758106" target="_blank">
-        ��������ʱ�������ڽ��п���ʱ�����ǿ�����Ҫ�Ƚ�ǰһ���汾�ļ��ͺ�һ���汾�ļ�����Щ�ط��������޸Ļ��ߴ�����Щ���⣬���ǿ���ͨ���򵥵Ĳ����ﵽ��һ��Ŀ��
+        场景：有时候我们在进行开发时，我们可能需要比较前一个版本文件和后一个版本文件在哪些地方进行了修改或者存在哪些问题，我们可以通过简单的操作达到这一个目的
 
-��������c������һ��Downloads�ļ��У������������ļ��ֱ���game_old.js��game_new.js���������ļ��ֱ���ǰһ��js�ļ�...      </a>
+现在我们c盘下有一个Downloads文件夹，里面有两个文件分别是game_old.js和game_new.js（这两个文件分别是前一个js文件...      </a>
     </p>
     <div class="info-box d-flex align-content-center">
       <p>
@@ -434,11 +435,11 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">138</span> </span>
+        <span class="read-num">阅读数 <span class="num">138</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -446,30 +447,30 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
         <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/86750498" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        ��Զ���֮��������      </a>
+            原        </span>
+        面对对象之基础概念      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/86750498" target="_blank">
-        Ŀ¼
+        目录
 
-1��ʲô�Ƕ���
+1、什么是对象
 
-2��ʲô���������
+2、什么是面向对象
 
-3����
+3、类
 
-4��ʲô�Ƕ�������Ժͷ���
+4、什么是对象的属性和方法
 
-5����Ͷ���Ĺ�ϵ
+5、类和对象的关系
 
-6������ʵ����
+6、对象实例化
 
-???????????????????????????????????????????????????????? 1��ʲô�Ƕ���
+???????????????????????????????????????????????????????? 1、什么是对象
 
-������Զ��󡢿͹۴��ڵ�����
+·万物皆对象、客观存在的事物
 
-������...      </a>
+·对象...      </a>
     </p>
     <div class="info-box d-flex align-content-center">
       <p>
@@ -477,11 +478,11 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">134</span> </span>
+        <span class="read-num">阅读数 <span class="num">134</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -489,26 +490,26 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
         <h4 class="">
         <a href="https://blog.csdn.net/qq_41998273/article/details/86750023" target="_blank">
         <span class="article-type type-1">
-            ԭ        </span>
-        ������Ƶ��ߴ�ԭ��      </a>
+            原        </span>
+        软件设计的七大原则      </a>
     </h4>
     <p class="content">
       <a href="https://blog.csdn.net/qq_41998273/article/details/86750023" target="_blank">
-        ����ԭ�� ��������ԭ�� ��һְ��ԭ�� �ӿڸ���ԭ�� ������ԭ�� �����滻ԭ�� �ϳɸ���ԭ��
+        开闭原则 依赖倒置原则 单一职责原则 接口隔离原则 迪米特原则 里氏替换原则 合成复用原则
 
-����ԭ�򣺣�����ԭ���һ��������
+开闭原则：（所有原则的一个基础）
 
-���壺һ������ʵ�����ࡢģ��ͺ���Ӧ�ö���չ���ţ����޸Ĺرա�
+定义：一个软件实体如类、模块和函数应该对扩展开放，对修改关闭。
 
-�ó��󹹽���ܣ���ʵ����չϸ��
+用抽象构建框架，用实现扩展细节
 
-�ŵ㣺�������ϵͳ�Ŀɸ����Լ���ά����
+优点：提高软件系统的可复用性及可维护性
 
 ?
 
-��������ԭ��
+依赖倒置原则
 
-����...      </a>
+定义...      </a>
     </p>
     <div class="info-box d-flex align-content-center">
       <p>
@@ -516,11 +517,11 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">�Ķ��� <span class="num">139</span> </span>
+        <span class="read-num">阅读数 <span class="num">139</span> </span>
       </p>
       <p class="point"></p>
       <p>
-        <span class="read-num">������ <span class="num">0</span> </span>
+        <span class="read-num">评论数 <span class="num">0</span> </span>
       </p>
     </div>
       </div>
@@ -528,7 +529,7 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
     </main>
     <aside>
 		    <div id="asideProfile" class="aside-box">
-    <!-- <h3 class="aside-title">��������</h3> -->
+    <!-- <h3 class="aside-title">个人资料</h3> -->
     <div class="profile-intro d-flex">
         <div class="avatar-box d-flex justify-content-center flex-column">
             <a href="https://me.csdn.net/qq_41998273">
@@ -560,38 +561,38 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
         </div>
         <div class="user-info d-flex justify-content-center flex-column">
             <p class="name csdn-tracking-statistics tracking-click" data-mod="popu_379">
-                <a href="https://me.csdn.net/qq_41998273" target="_blank" class="" id="uid">���һ��</a>
+                <a href="https://me.csdn.net/qq_41998273" target="_blank" class="" id="uid">秀得一脸</a>
             </p>
                     </div>
                 <div class="opt-box d-flex justify-content-center flex-column">
             <span  class="csdn-tracking-statistics tracking-click" data-mod="popu_379">
-                <a class="btn btn-sm btn-red-hollow attention" id="btnAttent">��ע</a>
+                <a class="btn btn-sm btn-red-hollow attention" id="btnAttent">关注</a>
             </span>
         </div>
             </div>
     <div class="data-info d-flex item-tiling">
                 <dl class="text-center" title="11">
-                        <dt><a href="https://blog.csdn.net/qq_41998273?t=1">ԭ��</a></dt>
+                        <dt><a href="https://blog.csdn.net/qq_41998273?t=1">原创</a></dt>
             <dd><a href="https://blog.csdn.net/qq_41998273?t=1"><span class="count">11</span></a></dd>
                     </dl>
         <dl class="text-center" id="fanBox" title="2">
-            <dt>��˿</dt>
+            <dt>粉丝</dt>
             <dd><span class="count" id="fan">2</span></dd>
         </dl>
         <dl class="text-center" title="11">
-            <dt>ϲ��</dt>
+            <dt>喜欢</dt>
             <dd><span class="count">11</span></dd>
         </dl>
         <dl class="text-center" title="0">
-            <dt>����</dt>
+            <dt>评论</dt>
             <dd><span class="count">0</span></dd>
         </dl>
     </div>
     <div class="grade-box clearfix">
         <dl>
-            <dt>�ȼ���</dt>
+            <dt>等级：</dt>
             <dd>
-                <a href="https://blog.csdn.net/home/help.html#level" title="2��,����鿴�ȼ�˵��" target="_blank">
+                <a href="https://blog.csdn.net/home/help.html#level" title="2级,点击查看等级说明" target="_blank">
                     <svg class="icon icon-level" aria-hidden="true">
                         <use xlink:href="#csdnc-bloglevel-2"></use>
                     </svg>
@@ -599,18 +600,18 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
             </dd>
         </dl>
         <dl>
-            <dt>���ʣ�</dt>
+            <dt>访问：</dt>
             <dd title="2705">
                 2705            </dd>
         </dl>
         <dl>
-            <dt>���֣�</dt>
+            <dt>积分：</dt>
             <dd title="143">
                 143            </dd>
         </dl>
         <dl title="1259442">
-            <dt>������</dt>
-            <dd>125��+</dd>
+            <dt>排名：</dt>
+            <dd>125万+</dd>
         </dl>
     </div>
     </div>
@@ -619,13 +620,13 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
       <script type="text/javascript" src="//rabc1.iteye.com/production/openjs/d9o6b.js?bwo=coltly"></script>    </div>
 </div>
 		    		    		    		    <div id="asideArchive" class="aside-box">
-    <h3 class="aside-title">�鵵</h3>
+    <h3 class="aside-title">归档</h3>
     <div class="aside-content">
         <ul class="archive-list">
-                        <!--�鵵ͳ��-->
+                        <!--归档统计-->
             <li>
                 <a href="https://blog.csdn.net/qq_41998273/article/month/2019/02">
-                    2019��2��                    <span class="count float-right">11ƪ</span>
+                    2019年2月                    <span class="count float-right">11篇</span>
                 </a>
             </li>
                     </ul>
@@ -652,17 +653,17 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
 <div class="mask"></div>
 <div class="promptBox clearfix">
     <div class="title clearfix bottom-dis-16">
-        <span class="float-left">��ʾ</span>
+        <span class="float-left">提示</span>
         <a class="float-right Boxclose">
             <svg class="icon" aria-hidden="true">
                 <use xlink:href="#csdnc-times"></use>
             </svg>
         </a>
     </div>
-    <div class="text">ȷ��Ҫɾ����ǰ���£�</div>
+    <div class="text">确定要删除当前文章？</div>
     <div class="pro-btn float-right">
-        <a class="clickNo">ȡ��</a>
-        <a class="clickYes">ɾ��</a>
+        <a class="clickNo">取消</a>
+        <a class="clickYes">删除</a>
     </div>
 </div>
 <script>
@@ -689,13 +690,13 @@ Eclipse ��ʾ�뼼��1. �ҵĵ�ǰλ��
 </script>
 <div class="box-box-default">
     <a class="btn-remove">
-        �ر�
+        关闭
     </a>
     <script type="text/javascript" src="//cee1.iteye.com/mhzzjepzz.js"></script>
 </div>
 <div class="box-box-large">
     <a class="btn-remove">
-        �ر�
+        关闭
     </a>
     <script type="text/javascript" src="//cee1.iteye.com/idvveasfs.js"></script>
 </div>
