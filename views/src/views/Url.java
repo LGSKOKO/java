@@ -15,12 +15,12 @@ public class Url {
  public void openUrl(String str)
  {
 	 try {
-		URL myUrl = new URL(str);//´ò¿ªÖ¸¶¨ÍøÖ·
+		URL myUrl = new URL(str);//æ‰“å¼€æŒ‡å®šç½‘å€
 		
 		InputStreamReader is =new InputStreamReader( myUrl.openStream(),"utf-8");
-		//myUrl.openStream()ÊÇ´ò¿ªÓë´ËURLµÄÁ¬½Ó£¬²¢·µ»ØÒ»¸öInputStreamÒÔ´Ó¸ÃÁ¬½Ó¶ÁÈ¡
-		// APIÎÄµµËµÃ÷£ºInputStreamReaderÀàÊÇ´Ó×Ö½ÚÁ÷µ½×Ö·ûÁ÷µÄÇÅ½ÓÆ÷£ºËüÊ¹ÓÃÖ¸¶¨µÄ×Ö·û¼¯¶ÁÈ¡×Ö½Ú²¢½«ËüÃÇ½âÂëÎª×Ö·û¡£
-		BufferedReader br = new BufferedReader(is);//½«inputStramReader×ª»¯ÎªBufferReader
+		//myUrl.openStream()æ˜¯æ‰“å¼€ä¸æ­¤URLçš„è¿æ¥ï¼Œå¹¶è¿”å›ä¸€ä¸ªInputStreamä»¥ä»è¯¥è¿æ¥è¯»å–
+		// APIæ–‡æ¡£è¯´æ˜ï¼šInputStreamReaderç±»æ˜¯ä»å­—èŠ‚æµåˆ°å­—ç¬¦æµçš„æ¡¥æ¥å™¨ï¼šå®ƒä½¿ç”¨æŒ‡å®šçš„å­—ç¬¦é›†è¯»å–å­—èŠ‚å¹¶å°†å®ƒä»¬è§£ç ä¸ºå­—ç¬¦ã€‚
+		BufferedReader br = new BufferedReader(is);//å°†inputStramReaderè½¬åŒ–ä¸ºBufferReader
 		
 		FileWriter fw = new FileWriter("url.txt");
 		BufferedWriter bw = new BufferedWriter(fw);
@@ -36,8 +36,8 @@ public class Url {
 		}
 		
 		bw.write(str2);
-		bw.flush();//ÒòÎªÊ¹ÓÃµÄÊÇ»º³å×Ö·ûÁ÷£¬×îºÃ¼ÓÉÏÕâ¾ä»° ·ñÔòÈç¹û»º´æÇøÎ´Âú²»»á½«ĞÅÏ¢Ğ´µ½ÎÄ¼şÖĞ
-		//ÕâÒ²¾ÍÊÇÎªÊ²Ã´ÓĞµÄÈË»áÎÊÎªÊ²Ã´ÎÒµÄĞÅÏ¢Ã»³É¹¦Ğ´ÈëÎÄ¼şÖĞ
+		bw.flush();//å› ä¸ºä½¿ç”¨çš„æ˜¯ç¼“å†²å­—ç¬¦æµï¼Œæœ€å¥½åŠ ä¸Šè¿™å¥è¯ å¦åˆ™å¦‚æœç¼“å­˜åŒºæœªæ»¡ä¸ä¼šå°†ä¿¡æ¯å†™åˆ°æ–‡ä»¶ä¸­
+		//è¿™ä¹Ÿå°±æ˜¯ä¸ºä»€ä¹ˆæœ‰çš„äººä¼šé—®ä¸ºä»€ä¹ˆæˆ‘çš„ä¿¡æ¯æ²¡æˆåŠŸå†™å…¥æ–‡ä»¶ä¸­
 		
 		is.close();
 		br.close();
@@ -53,6 +53,7 @@ public class Url {
 	}
  }
  
+	
    
 
 }
