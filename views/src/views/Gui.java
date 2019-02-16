@@ -14,13 +14,14 @@ import java.awt.Color;
 import javax.swing.JRadioButton;
 import javax.swing.JButton;
 
+
 public class Gui extends JFrame  implements ActionListener {
 
 	private JPanel contentPane;
-	private JTextField textField;//¼ÇÂ¼²©¿ÍÍøÖ·
-	private JTextField textField_1;//¼ÇÂ¼·ÃÎÊÆªÊı
-	private JRadioButton radioButton;//µ¥Ñ¡°´Å¥£¬¼ÇÂ¼ÊÇ·ñËæ»ú·ÃÎÊ
-	private JButton start;//¿ªÊ¼°´Å¥			
+	private JTextField textField;//è®°å½•åšå®¢ç½‘å€
+	private JTextField textField_1;//è®°å½•è®¿é—®ç¯‡æ•°
+	private JRadioButton radioButton;//å•é€‰æŒ‰é’®ï¼Œè®°å½•æ˜¯å¦éšæœºè®¿é—®
+	private JButton start;//å¼€å§‹æŒ‰é’®			
 	private JButton stop;
 	private DesktopTest4 dt;
 	
@@ -36,7 +37,7 @@ public class Gui extends JFrame  implements ActionListener {
 	public Gui() {
 		setForeground(Color.RED);
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\hhh\u674E\u5148\u751F\\Desktop\\hdImg_37062827837e2d79bb5a86b1cb5bdda415490926835.jpg"));
-		setTitle("Ë¢²©¿Í·ÃÎÊÁ¿¡¢ÔÄ¶ÁÁ¿Ğ¡³ÌĞò");
+		setTitle("åˆ·åšå®¢è®¿é—®é‡ã€é˜…è¯»é‡å°ç¨‹åº");
 		
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -84,21 +85,21 @@ public class Gui extends JFrame  implements ActionListener {
 		JPanel panel_1 = new JPanel();
 		panel2.add(panel_1);
 		
-		start = new JButton("\u5F00\u59CB");//¿ªÊ¼°´Å¥
+		start = new JButton("\u5F00\u59CB");//å¼€å§‹æŒ‰é’®
 		panel_1.add(start);
 		start.addActionListener(this);
 		
-		stop = new JButton("\u7ED3\u675F");//½áÊø°´Å¥
+		stop = new JButton("\u7ED3\u675F");//ç»“æŸæŒ‰é’®
 		stop.setEnabled(false);
 		panel_1.add(stop);
 		stop.addActionListener(this);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-		this.setVisible(true);						    //Èç¹ûÃ»Õâ¾ä´úÂë£¬Í¼ĞÎ¾ÍÎŞ·¨ÏÔÊ¾
+		this.setVisible(true);						    //å¦‚æœæ²¡è¿™å¥ä»£ç ï¼Œå›¾å½¢å°±æ— æ³•æ˜¾ç¤º
 	}
 	
-	// ¼àÌı°´Å¥
+	// ç›‘å¬æŒ‰é’®
 	public void actionPerformed(ActionEvent e) {
-		//ÅĞ¶Ï°´Å¥ĞÅÏ¢À´Ô´
+		//åˆ¤æ–­æŒ‰é’®ä¿¡æ¯æ¥æº
 		if(e.getSource()== start){
 			
 			String str = textField.getText();
@@ -106,9 +107,9 @@ public class Gui extends JFrame  implements ActionListener {
 			url.openUrl(str);
 			Match match = new Match();
 			match.compare();
-			int j =Integer.parseInt(textField_1.getText());//»ñÈ¡·ÃÎÊÆªÊı
+			int j =Integer.parseInt(textField_1.getText());//è·å–è®¿é—®ç¯‡æ•°
 			Boolean b = false;
-			if(radioButton.isSelected())				//ÅĞ¶Ïµ¥Ñ¡°´Å¥ÊÇ·ñÑ¡ÖĞ
+			if(radioButton.isSelected())				//åˆ¤æ–­å•é€‰æŒ‰é’®æ˜¯å¦é€‰ä¸­
 				b =true;
 			dt.begin(j,b);
 			start.setEnabled(false);
