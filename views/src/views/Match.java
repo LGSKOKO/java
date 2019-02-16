@@ -13,22 +13,22 @@ public class Match {
 	public void compare(){
 	
 		try {
-			FileReader fr = new FileReader("url.txt");//¶ÁÈ¡ÒÑ¾­×¥È¡µÄÒ³ÃæĞÅÏ¢ÎÄ¼ş
+			FileReader fr = new FileReader("url.txt");//è¯»å–å·²ç»æŠ“å–çš„é¡µé¢ä¿¡æ¯æ–‡ä»¶
 			BufferedReader br = new BufferedReader(fr);
 			
-			FileWriter fw = new FileWriter("match.txt");//´ËÎÄ¼şÓÃÁ¦´æ·ÅÓĞĞ§µÄ²©ÎÄÍøÖ·µÄÎÄ¼ş
+			FileWriter fw = new FileWriter("match.txt");//æ­¤æ–‡ä»¶ç”¨åŠ›å­˜æ”¾æœ‰æ•ˆçš„åšæ–‡ç½‘å€çš„æ–‡ä»¶
 			BufferedWriter bw = new BufferedWriter(fw);
 			
 			String str ="";
 			String readStr="";
-			//±àĞ´ÕıÔò±í´ïÊ½
+			//ç¼–å†™æ­£åˆ™è¡¨è¾¾å¼
 			String regex="https://blog.csdn.net/\\w{1,}\\_\\d{1,}/article/details/\\d{1,}";
 			
-			Pattern p =  Pattern.compile(regex);//ÉèÖÃÕıÔò¹æÔò ²»»á¿ÉÒÔ²é¿´PatternºÍMatcherÕâÁ½¸öÀà
+			Pattern p =  Pattern.compile(regex);//è®¾ç½®æ­£åˆ™è§„åˆ™ ä¸ä¼šå¯ä»¥æŸ¥çœ‹Patternå’ŒMatcherè¿™ä¸¤ä¸ªç±»
 			while(( readStr=br.readLine())!= null)
 			{
 				
-				Matcher m = p.matcher(readStr);//½øĞĞÆ¥Åä
+				Matcher m = p.matcher(readStr);//è¿›è¡ŒåŒ¹é…
 				 while (m.find()){
 					 if(!str.contains(m.group()))
 					 {
@@ -39,8 +39,8 @@ public class Match {
 			
 			}
 			bw.write(str);
-			bw.flush();//ÒòÎªÊ¹ÓÃµÄÊÇ»º³å×Ö·ûÁ÷£¬×îºÃ¼ÓÉÏÕâ¾ä»° ·ñÔòÈç¹û»º´æÇøÎ´Âú²»»á½«ĞÅÏ¢Ğ´µ½ÎÄ¼şÖĞ
-			//ÕâÒ²¾ÍÊÇÎªÊ²Ã´ÓĞµÄÈË»áÎÊÎªÊ²Ã´ÎÒµÄĞÅÏ¢Ã»³É¹¦Ğ´ÈëÎÄ¼şÖĞ
+			bw.flush();//å› ä¸ºä½¿ç”¨çš„æ˜¯ç¼“å†²å­—ç¬¦æµï¼Œæœ€å¥½åŠ ä¸Šè¿™å¥è¯ å¦åˆ™å¦‚æœç¼“å­˜åŒºæœªæ»¡ä¸ä¼šå°†ä¿¡æ¯å†™åˆ°æ–‡ä»¶ä¸­
+			//è¿™ä¹Ÿå°±æ˜¯ä¸ºä»€ä¹ˆæœ‰çš„äººä¼šé—®ä¸ºä»€ä¹ˆæˆ‘çš„ä¿¡æ¯æ²¡æˆåŠŸå†™å…¥æ–‡ä»¶ä¸­
 			
 			fr.close();
 			br.close();
@@ -52,6 +52,7 @@ public class Match {
 		}
 		
 	}
+	
 	
 
 }
